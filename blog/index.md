@@ -1,11 +1,15 @@
 ---
 layout: default
-title: "Professional Blog"
+title: "Blog"
 ---
 
-# Professional Blog
+<h1>{{ page.title }}</h1>
 
-Check out my thoughts on professional topics. Here, you'll find...
-
-<!-- Your content goes here -->
-
+<ul>
+  {% for post in site.categories.blog %}
+    <li>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      <p>{{ post.date | date: "%B %d, %Y" }}</p>
+    </li>
+  {% endfor %}
+</ul>
