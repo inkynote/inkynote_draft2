@@ -3,9 +3,10 @@
 source "https://rubygems.org"
 
 gem "jekyll", "~> 4.2.0"
-gem "jekyll-theme-hitchens" # Or your chosen theme
+gem "jekyll-theme-hitchens" # Or whichever theme you're using
+gem "jekyll-paginate" # If you're using pagination
 
-# Optional dependencies
-gem "jekyll-paginate"
-gem "jekyll-feed"
-gem "jekyll-sitemap"
+group :jekyll_plugins do
+  gem "jekyll-feed"
+  gem "jekyll-sitemap"
+end
