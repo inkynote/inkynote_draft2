@@ -1,0 +1,22 @@
+---
+layout: home
+title: "Welcome to InkyNote"
+---
+
+<div class="container">
+  <div class="box">
+    <h2>PhD Poetry</h2>
+    <p>Explore my poetic journey through academia.</p>
+    <a href="{{ '/phd-poetry/' | relative_url }}">Read More</a>
+  </div>
+  <div class="box">
+    <h2>Short Stories</h2>
+    <p>Dive into a collection of my short stories.</p>
+    <a href="{{ '/short-stories/' | relative_url }}">Read More</a>
+  </div>
+  <div class="box">
+    <h2>Professional Blog</h2>
+    <p>Check out my thoughts on professional topics.</p>
+    <a href="{{ '/blog/' | relative_url }}">Read More</a>
+  </div>
+</div>
