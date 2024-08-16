@@ -1,3 +1,17 @@
 theme: jekyll-theme-hitchens
 title: InkyNote
 description: "Just another ordinary PhD"
+
+url: "https://your-username.github.io"
+baseurl: ""
+markdown: kramdown
+
+nav:
+  - name: "Home"
+    link: "/"
+  - name: "PhD Poetry"
+    link: "/phd-poetry/"
+  - name: "Short Stories"
+    link: "/short-stories/"
+  - name: "Professional Blog"
+    link: "/blog/"
